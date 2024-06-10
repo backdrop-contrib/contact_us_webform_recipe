@@ -1,6 +1,5 @@
 <?php
-
-	function contact_us_webform_install() {
+	function contact_us_webform_recipe_install() {
 
     // Make Contact form with Webform Module.
     $webform = new Node(
@@ -45,8 +44,6 @@
       )
     );
     $webform->save();
+
     config_set('node.type.webform', 'settings.node_submitted', 0);
-   }
-
-
-
+  }
