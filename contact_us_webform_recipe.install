@@ -71,6 +71,4 @@
 
     // Update the menu router information.
     menu_rebuild();
-    backdrop_set_message('End of recipe install.', 'info');
-
   }
