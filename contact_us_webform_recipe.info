@@ -1,5 +1,5 @@
 type = module
-name = Contact Us Webform Recipe
+name = Contact Us (Webform) Recipe
 description = A recipe to quickly configure a Contact form using the webform module
 package = Recipes
 backdrop = 1.x
