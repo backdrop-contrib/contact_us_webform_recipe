@@ -1,31 +1,11 @@
-The Digital Agency Package is a collection of features and configuration tailored to 
-meet the needs of a digital agency, artist, or other organization that provides various
-services that need to be showcased on their website and requires a portfolio.
-
-This package is the glue that pulls together and binds several existing recipes that 
-will create content types, views, and content. 
-
-This project was conceived as a package of content and configuration to be supported
-by the [Zeever theme](https://github.com/stpaultim/zeever/wiki). The Zeever theme is being developed with this package of content
-and configuration in mind. However, we choose a different name for this project to 
-reflect the fact, that more than one theme might choose to support this package.
-
-At this stage, we're discussing this package of content and configuration in the Zeever
-issue queue, because of our development process. This is a temporary workflow, until 
-we launch the Zeever theme. 
-https://github.com/stpaultim/zeever/issues
+The contact module provided by core does not keep a record of data
+in the database. If you use the Webform module to create your contact
+form, all previous data will be stored in database and it retreivable. 
 
 Requirements
 ------------
 
-Requires [BackdropCMS 1.20](https://github.com/backdrop/backdrop/releases/tag/1.20.0) or greater.
-
-This package will require the installation of several reciples. The current list of 
-required recipes, includes:
-
-* Services Recipe
-* Testimonial Recipe
-* FAQ Recipe
+- Webform Module
 
 Installation
 ------------
