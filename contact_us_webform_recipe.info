@@ -1,0 +1,16 @@
+type = module
+name = Contact Us Webform Recipe
+description = A recipe to quickly configure a Contact form using the webform module
+package = Recipes
+backdrop = 1.x
+
+; Link to the module's configuration page.
+configure = admin/config/system/digital_agency
+
+; Add custom CSS & JS files.
+
+; List any dependencies here.
+dependencies[] = webform
+
+; Find suggested tags at: https://docs.backdropcms.org/documentation/module-packages-and-tags
+tags[] = Recipes
