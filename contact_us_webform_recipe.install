@@ -59,16 +59,5 @@
     menu_link_save($link);
 
     config_set('node.type.webform', 'settings.node_submitted', 0);
-
-    // Create a Home link in the main menu.
-    $formlink = array(
-      'link_title' => st('Contact Us'),
-      'link_path' => 'node/' . $nodenumber,
-      'menu_name' => 'main-menu',
-      'weight' => 5,
-    );
-    menu_link_save($formlink);
-
-    // Update the menu router information.
     menu_rebuild();
   }
