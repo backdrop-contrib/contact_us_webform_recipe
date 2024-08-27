@@ -59,5 +59,7 @@
     menu_link_save($link);
 
     config_set('node.type.webform', 'settings.node_submitted', 0);
+
+    // Update the menu router information.
     menu_rebuild();
   }
